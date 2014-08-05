@@ -1,0 +1,68 @@
+.listing {
+	position: relative;
+	overflow: auto;
+	min-height: 100px;
+
+	padding: 10px 10px;
+
+	border: thin solid rgb(220, 220, 220);
+
+	margin: 5px 0 15px 0;
+}
+
+.listing > img {
+	float: left;
+	padding: 3px 3px;
+	margin: 0 5px 5px 0;
+	border: 2px solid rgb(200, 200, 200);
+}
+
+.listing header {
+	border-bottom: thin solid rgb(240, 240, 240);
+}
+
+.listing h1 {
+	font-size: 150%;
+	margin: 0;
+}
+
+.listing .sold {
+	width: 100%;
+	position: relative;
+	top: -10px;
+	text-align: center;
+	border-bottom: thin solid rgb(220, 220, 220);
+	margin-bottom: 5px;
+}
+
+.listing .sold span {
+	padding: 0.5em;
+	font-size: 150%;
+}
+
+#gallery {
+	margin: 5px auto 5px auto;
+	width: 100%;
+	clear: both;
+}
+
+#gallery a {
+	text-decoration: none;
+}
+
+#thumbs {
+	margin: 0 auto;
+	list-style: none;
+	text-align: center;
+}
+
+#thumbs li {
+	display: inline;
+}
+
+#thumbs img {
+	padding: 5px;
+	border: thin solid rgb(220, 220, 220);
+	margin: 5px 5px;
+	display: inline;
+}

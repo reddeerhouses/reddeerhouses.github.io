@@ -1,0 +1,31 @@
+
+nav li.return-link {
+	float: right;
+}
+
+article h1 {
+	margin: 0;
+}
+
+article img {
+	padding: 10px 10px;
+	margin: 0;
+}
+
+a.img_link {
+	margin: 0 auto;
+	display: block;
+
+	border: thin solid rgb(220, 220, 220);
+	text-align: center;
+}
+
+.caption {
+	border: thin solid rgb(220, 220, 220);
+	border-top: none;
+	margin-bottom: 0.5em;
+}
+
+.caption > p:last-child, .caption > *:last-child {
+	margin-bottom: 0.2em;
+}

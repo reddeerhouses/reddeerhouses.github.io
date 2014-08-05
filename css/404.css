@@ -1,0 +1,7 @@
+.error_404 {
+	padding: 50px 0 0 80px;
+	height: 200px;
+	background: url(../img/404.jpg) no-repeat;
+	font-size: 150%;
+}
+
